@@ -21,7 +21,7 @@ export default function AllCharacters() {
 
   return (
     <>
-    <h1>Characters featured on The Simpsons</h1>
+    <h1>Characters</h1>
     <div>
       <label>
         Search{" "}
@@ -32,16 +32,16 @@ export default function AllCharacters() {
       </label>
     </div>
 
+    <div className="cell-container">
     {displayedCharacters.map((character) => {
       return (
         <>
         <div className="cell">
         <h2>{character.normalized_name}</h2>
-        <p>{character.gender}</p>
         </div>
         </>
       )
-    })}
+    })}</div>
     </>
   )
 }

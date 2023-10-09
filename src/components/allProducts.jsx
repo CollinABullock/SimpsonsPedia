@@ -21,7 +21,7 @@ export default function AllProducts() {
 
   return (
     <>
-    <h1>Products featured on The Simpsons</h1>
+    <h1>Products</h1>
     <div>
       <label>
         Search{" "}<br />
@@ -31,17 +31,17 @@ export default function AllProducts() {
         />
       </label>
     </div>
-<br /><br />
+    
+    <div className="cell-container">
     {displayedProducts.map((product) => {
       return (
-        <>
+       
         <div className="cell">
-        <h2>{product.name}</h2>
-        <p>{product.description}</p>
+        <h3>{product.name}</h3>
+        <h4>{product.description}</h4>
         </div>
-        </>
       )
-    })}
+    })}</div>
     </>
   )
 }

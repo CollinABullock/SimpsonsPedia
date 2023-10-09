@@ -21,7 +21,7 @@ export default function AllEpisodes() {
 
   return (
     <>
-    <h1>Episodes of The Simpsons</h1>
+    <h1>Episodes</h1>
     <div>
       <label>
         Search{" "}<br />
@@ -31,7 +31,8 @@ export default function AllEpisodes() {
         />
       </label>
     </div>
-<br /><br />
+
+    <div className="cell-container">
     {displayedEpisodes.map((episode) => {
       return (
         <>
@@ -41,7 +42,7 @@ export default function AllEpisodes() {
         </div>
         </>
       )
-    })}
+    })}</div>
     </>
   )
 }
