@@ -39,7 +39,9 @@ export default function AllEpisodes() {
       return (
         <>
         <div className="cell">
+        <img src={episode.thumbnailUrl} className="episodeImg"/>
         <h2>{episode.name}</h2>
+        <p>Season {episode.season} Episode {episode.episode}</p>
         <p>{episode.description}</p>
         </div>
         </>

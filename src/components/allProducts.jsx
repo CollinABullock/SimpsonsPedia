@@ -39,8 +39,9 @@ export default function AllProducts() {
       return (
        
         <div className="cell">
-        <h3>{product.name}</h3>
-        <h4>{product.description}</h4>
+        <h2>{product.name}</h2>
+        <h3>{product.description}</h3>
+        <p>{product.Details}</p>
         </div>
       )
     })}</div>
