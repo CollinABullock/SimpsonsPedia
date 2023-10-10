@@ -12,7 +12,7 @@ function Home() {
     <h1>SimpsonsPedia</h1>
       <h4>A guide to characters, products, and episodes</h4>
       <NavBar />
-      <img src="src/assets/simpsons.jpg" alt="The Simpsons" />
+      <img src="https://decider.com/wp-content/uploads/2016/06/homer.jpg?quality=80&strip=all&w=646&h=431&crop=1" alt="The Simpsons" />
       </>
   )
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import NavBar from "./navBar";
 
 export default function AllEpisodes() {
   // using usestate so that I can change the variable of characters with info from the api.  And since it will be an array, I'm putting the brackets in the params spot in the parenthes after useState
@@ -22,6 +23,7 @@ export default function AllEpisodes() {
   return (
     <>
     <h1>Episodes</h1>
+    <NavBar />
     <div>
       <label>
         Search{" "}<br />
