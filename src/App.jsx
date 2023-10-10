@@ -12,7 +12,7 @@ function Home() {
     <h1>SimpsonsPedia</h1>
       <h4>A guide to characters, products, and episodes</h4>
       <NavBar />
-      <img src="SimpsonsPedia/simpsons.png" alt="The Simpsons" />
+      <p>(c) 2023, Collin A. Bullock</p>
       </>
   )
 }
