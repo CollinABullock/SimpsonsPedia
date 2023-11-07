@@ -4,6 +4,7 @@ import AllCharacters from "./components/allCharacters";
 import AllProducts from "./components/allProducts";
 import AllEpisodes from "./components/allEpisodes";
 import NavBar from "./components/navBar";
+import SingleEpisode from "./components/singleEpisode";
 import "./App.css"
 
 function Home() {
@@ -28,6 +29,7 @@ export default function App() {
   <Route path="/characters" element={<AllCharacters />} />
   <Route path="/products" element={<AllProducts />} />
   <Route path="/episodes" element={<AllEpisodes />} />
+  <Route path="/episodes/:id" element={<SingleEpisode />} />
 </Routes>
 </BrowserRouter>
 </>
