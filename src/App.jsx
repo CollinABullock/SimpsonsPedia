@@ -29,7 +29,7 @@ export default function App() {
   <Route path="/characters" element={<AllCharacters />} />
   <Route path="/products" element={<AllProducts />} />
   <Route path="/episodes" element={<AllEpisodes />} />
-  <Route path="/episodes/:id" element={<SingleEpisode />} />
+  <Route path="/:id" element={<SingleEpisode />} />
 </Routes>
 </BrowserRouter>
 </>

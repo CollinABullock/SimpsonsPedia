@@ -39,7 +39,7 @@ export default function AllEpisodes() {
       return (
         <>
         <div className="cell">
-        <a href={`/episodes/${episode.id}`}>
+        <a href={`/${episode.id}`}>
         <img src={episode.thumbnailUrl} className="episodeImg"/>
         <h2>{episode.name}</h2>
         </a>
