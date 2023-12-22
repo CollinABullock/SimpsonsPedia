@@ -27,9 +27,17 @@
   width: 700px;
 }
 
-.homeIMG {
-  width: 50%;
+.navBar {
+  margin: 20px;
+}
 
+.navButton {
+  margin: 5px;
+}
+
+.navButton:hover {
+  background-color: #ffd90f;
+  color: black;
 }
 
 
@@ -39,10 +47,6 @@
   margin: 10px;
   width: 29%;
   padding: 5px;
-}
-
-.navBar {
-  margin-bottom: 20px;
 }
 
 @media (max-width: 820px) {
