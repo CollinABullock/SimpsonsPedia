@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -35,9 +35,26 @@
   margin: 5px;
 }
 
-.navButton:hover {
+button {
+  border-radius: 30px;
+  border: 2px solid whitesmoke;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: whitesmoke;
+}
+
+button:hover {
+  border-color: #646cff;
   background-color: #ffd90f;
-  color: black;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
 
@@ -47,6 +64,10 @@
   margin: 10px;
   width: 29%;
   padding: 5px;
+}
+
+.homeIMG {
+  max-width: 90%;
 }
 
 @media (max-width: 820px) {
